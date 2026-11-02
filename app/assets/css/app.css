@@ -6117,3 +6117,13 @@ button {
 .overlay {
   background: rgba(var(--rgb-teal), 0.6);
 }
+.bg {
+  display: none !important;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 0%, rgba(var(--rgb-mint), 0.16), transparent 55%),
+    var(--cream);
+  background-attachment: scroll;
+}
