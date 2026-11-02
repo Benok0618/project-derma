@@ -6066,3 +6066,10 @@ button {
     color: var(--teal);
   }
 }
+
+.reveal,
+.stagger > * {
+  opacity: 1 !important;
+  transform: none !important;
+  animation: none !important;
+}
